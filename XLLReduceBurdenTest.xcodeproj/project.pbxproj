@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		85599B71D83CEB4BD2898EF5 /* Pods_XLLReduceBurdenTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DF825237CB0CE6FDDD9F3C1 /* Pods_XLLReduceBurdenTestTests.framework */; };
+		9E350069CFFCCC23C2902375 /* Pods_XLLReduceBurdenTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4E6E71744461CDD9807F7EA /* Pods_XLLReduceBurdenTestUITests.framework */; };
 		A942B96A233CDF1400194CC6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B969233CDF1400194CC6 /* AppDelegate.m */; };
 		A942B96D233CDF1400194CC6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B96C233CDF1400194CC6 /* SceneDelegate.m */; };
 		A942B970233CDF1400194CC6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B96F233CDF1400194CC6 /* ViewController.m */; };
@@ -16,6 +18,14 @@
 		A942B97B233CDF1600194CC6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B97A233CDF1600194CC6 /* main.m */; };
 		A942B985233CDF1600194CC6 /* XLLReduceBurdenTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B984233CDF1600194CC6 /* XLLReduceBurdenTestTests.m */; };
 		A942B990233CDF1600194CC6 /* XLLReduceBurdenTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B98F233CDF1600194CC6 /* XLLReduceBurdenTestUITests.m */; };
+		A942B9A2233CE08100194CC6 /* XLLTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B9A1233CE08100194CC6 /* XLLTestView.m */; };
+		A942B9A6233CE3C800194CC6 /* UIFont+XLL.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B9A5233CE3C800194CC6 /* UIFont+XLL.m */; };
+		A942B9AB233CE57300194CC6 /* XLLCommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942B9AA233CE57300194CC6 /* XLLCommon.swift */; };
+		A942B9AE233CE72200194CC6 /* UIImage+XLL.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B9AD233CE72200194CC6 /* UIImage+XLL.m */; };
+		A942B9B1233CF02F00194CC6 /* XLLTestedView.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B9B0233CF02F00194CC6 /* XLLTestedView.m */; };
+		A942B9B5233CF07400194CC6 /* XLLTestedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A942B9B4233CF07400194CC6 /* XLLTestedView.swift */; };
+		A942B9BD233CF90200194CC6 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A942B9BC233CF90200194CC6 /* SecondViewController.m */; };
+		E85A5E2528826FFB34E1ADED /* Pods_XLLReduceBurdenTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7489B498E6C3ED0F12EBE028 /* Pods_XLLReduceBurdenTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1241BF878991720B9AF4374C /* Pods-XLLReduceBurdenTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTestUITests.release.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTestUITests/Pods-XLLReduceBurdenTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2DA4074E8821957C1DBA037D /* Pods-XLLReduceBurdenTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTest.debug.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTest/Pods-XLLReduceBurdenTest.debug.xcconfig"; sourceTree = "<group>"; };
+		34C8F151B2ECD2199ACE124D /* Pods-XLLReduceBurdenTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTestUITests/Pods-XLLReduceBurdenTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4DF825237CB0CE6FDDD9F3C1 /* Pods_XLLReduceBurdenTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLLReduceBurdenTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F5F5F8F2615E5429EFEABC3 /* Pods-XLLReduceBurdenTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTest.release.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTest/Pods-XLLReduceBurdenTest.release.xcconfig"; sourceTree = "<group>"; };
+		7489B498E6C3ED0F12EBE028 /* Pods_XLLReduceBurdenTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLLReduceBurdenTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835623FE90BDCFFB85FB6022 /* Pods-XLLReduceBurdenTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTestTests.release.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTestTests/Pods-XLLReduceBurdenTestTests.release.xcconfig"; sourceTree = "<group>"; };
 		A942B965233CDF1400194CC6 /* XLLReduceBurdenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XLLReduceBurdenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A942B968233CDF1400194CC6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A942B969233CDF1400194CC6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +71,23 @@
 		A942B98B233CDF1600194CC6 /* XLLReduceBurdenTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XLLReduceBurdenTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A942B98F233CDF1600194CC6 /* XLLReduceBurdenTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLReduceBurdenTestUITests.m; sourceTree = "<group>"; };
 		A942B991233CDF1600194CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A942B9A0233CE08100194CC6 /* XLLTestView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLTestView.h; sourceTree = "<group>"; };
+		A942B9A1233CE08100194CC6 /* XLLTestView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLTestView.m; sourceTree = "<group>"; };
+		A942B9A4233CE3C800194CC6 /* UIFont+XLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+XLL.h"; sourceTree = "<group>"; };
+		A942B9A5233CE3C800194CC6 /* UIFont+XLL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+XLL.m"; sourceTree = "<group>"; };
+		A942B9A7233CE4BF00194CC6 /* XLLMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLMacros.h; sourceTree = "<group>"; };
+		A942B9A8233CE4D700194CC6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A942B9A9233CE57200194CC6 /* XLLReduceBurdenTest-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XLLReduceBurdenTest-Bridging-Header.h"; sourceTree = "<group>"; };
+		A942B9AA233CE57300194CC6 /* XLLCommon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLLCommon.swift; sourceTree = "<group>"; };
+		A942B9AC233CE72200194CC6 /* UIImage+XLL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+XLL.h"; sourceTree = "<group>"; };
+		A942B9AD233CE72200194CC6 /* UIImage+XLL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+XLL.m"; sourceTree = "<group>"; };
+		A942B9AF233CF02F00194CC6 /* XLLTestedView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XLLTestedView.h; sourceTree = "<group>"; };
+		A942B9B0233CF02F00194CC6 /* XLLTestedView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XLLTestedView.m; sourceTree = "<group>"; };
+		A942B9B4233CF07400194CC6 /* XLLTestedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XLLTestedView.swift; sourceTree = "<group>"; };
+		A942B9BB233CF90100194CC6 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A942B9BC233CF90200194CC6 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C4E6E71744461CDD9807F7EA /* Pods_XLLReduceBurdenTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XLLReduceBurdenTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF1852837555EB2C04EE92EC /* Pods-XLLReduceBurdenTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XLLReduceBurdenTestTests.debug.xcconfig"; path = "Target Support Files/Pods-XLLReduceBurdenTestTests/Pods-XLLReduceBurdenTestTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E85A5E2528826FFB34E1ADED /* Pods_XLLReduceBurdenTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85599B71D83CEB4BD2898EF5 /* Pods_XLLReduceBurdenTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +111,23 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E350069CFFCCC23C2902375 /* Pods_XLLReduceBurdenTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		52F5CCFC2BCD28E6986352F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7489B498E6C3ED0F12EBE028 /* Pods_XLLReduceBurdenTest.framework */,
+				4DF825237CB0CE6FDDD9F3C1 /* Pods_XLLReduceBurdenTestTests.framework */,
+				C4E6E71744461CDD9807F7EA /* Pods_XLLReduceBurdenTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A942B95C233CDF1400194CC6 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +135,8 @@
 				A942B983233CDF1600194CC6 /* XLLReduceBurdenTestTests */,
 				A942B98E233CDF1600194CC6 /* XLLReduceBurdenTestUITests */,
 				A942B966233CDF1400194CC6 /* Products */,
+				D51F93E964C88F78D3346D15 /* Pods */,
+				52F5CCFC2BCD28E6986352F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,17 +153,18 @@
 		A942B967233CDF1400194CC6 /* XLLReduceBurdenTest */ = {
 			isa = PBXGroup;
 			children = (
-				A942B968233CDF1400194CC6 /* AppDelegate.h */,
-				A942B969233CDF1400194CC6 /* AppDelegate.m */,
-				A942B96B233CDF1400194CC6 /* SceneDelegate.h */,
-				A942B96C233CDF1400194CC6 /* SceneDelegate.m */,
+				A942B9A3233CE3A200194CC6 /* Categories */,
+				A942B99F233CE06500194CC6 /* TestView */,
+				A942B99E233CE05000194CC6 /* SupportingFiles */,
+				A942B99D233CE03E00194CC6 /* AppDelegate */,
 				A942B96E233CDF1400194CC6 /* ViewController.h */,
 				A942B96F233CDF1400194CC6 /* ViewController.m */,
-				A942B971233CDF1400194CC6 /* Main.storyboard */,
-				A942B974233CDF1600194CC6 /* Assets.xcassets */,
-				A942B976233CDF1600194CC6 /* LaunchScreen.storyboard */,
-				A942B979233CDF1600194CC6 /* Info.plist */,
-				A942B97A233CDF1600194CC6 /* main.m */,
+				A942B9BB233CF90100194CC6 /* SecondViewController.h */,
+				A942B9BC233CF90200194CC6 /* SecondViewController.m */,
+				A942B9A7233CE4BF00194CC6 /* XLLMacros.h */,
+				A942B9AA233CE57300194CC6 /* XLLCommon.swift */,
+				A942B9A8233CE4D700194CC6 /* PrefixHeader.pch */,
+				A942B9A9233CE57200194CC6 /* XLLReduceBurdenTest-Bridging-Header.h */,
 			);
 			path = XLLReduceBurdenTest;
 			sourceTree = "<group>";
@@ -137,6 +187,65 @@
 			path = XLLReduceBurdenTestUITests;
 			sourceTree = "<group>";
 		};
+		A942B99D233CE03E00194CC6 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A942B968233CDF1400194CC6 /* AppDelegate.h */,
+				A942B969233CDF1400194CC6 /* AppDelegate.m */,
+				A942B96B233CDF1400194CC6 /* SceneDelegate.h */,
+				A942B96C233CDF1400194CC6 /* SceneDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		A942B99E233CE05000194CC6 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				A942B971233CDF1400194CC6 /* Main.storyboard */,
+				A942B974233CDF1600194CC6 /* Assets.xcassets */,
+				A942B976233CDF1600194CC6 /* LaunchScreen.storyboard */,
+				A942B979233CDF1600194CC6 /* Info.plist */,
+				A942B97A233CDF1600194CC6 /* main.m */,
+			);
+			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		A942B99F233CE06500194CC6 /* TestView */ = {
+			isa = PBXGroup;
+			children = (
+				A942B9A0233CE08100194CC6 /* XLLTestView.h */,
+				A942B9A1233CE08100194CC6 /* XLLTestView.m */,
+				A942B9AF233CF02F00194CC6 /* XLLTestedView.h */,
+				A942B9B0233CF02F00194CC6 /* XLLTestedView.m */,
+				A942B9B4233CF07400194CC6 /* XLLTestedView.swift */,
+			);
+			path = TestView;
+			sourceTree = "<group>";
+		};
+		A942B9A3233CE3A200194CC6 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				A942B9A4233CE3C800194CC6 /* UIFont+XLL.h */,
+				A942B9A5233CE3C800194CC6 /* UIFont+XLL.m */,
+				A942B9AC233CE72200194CC6 /* UIImage+XLL.h */,
+				A942B9AD233CE72200194CC6 /* UIImage+XLL.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		D51F93E964C88F78D3346D15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2DA4074E8821957C1DBA037D /* Pods-XLLReduceBurdenTest.debug.xcconfig */,
+				6F5F5F8F2615E5429EFEABC3 /* Pods-XLLReduceBurdenTest.release.xcconfig */,
+				FF1852837555EB2C04EE92EC /* Pods-XLLReduceBurdenTestTests.debug.xcconfig */,
+				835623FE90BDCFFB85FB6022 /* Pods-XLLReduceBurdenTestTests.release.xcconfig */,
+				34C8F151B2ECD2199ACE124D /* Pods-XLLReduceBurdenTestUITests.debug.xcconfig */,
+				1241BF878991720B9AF4374C /* Pods-XLLReduceBurdenTestUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +253,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A942B994233CDF1600194CC6 /* Build configuration list for PBXNativeTarget "XLLReduceBurdenTest" */;
 			buildPhases = (
+				0C79FD490FA30384BED63B27 /* [CP] Check Pods Manifest.lock */,
 				A942B961233CDF1400194CC6 /* Sources */,
 				A942B962233CDF1400194CC6 /* Frameworks */,
 				A942B963233CDF1400194CC6 /* Resources */,
+				75C3EB302CBA33A5488CBB48 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +272,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A942B997233CDF1600194CC6 /* Build configuration list for PBXNativeTarget "XLLReduceBurdenTestTests" */;
 			buildPhases = (
+				4C04B6D7523DDCCE815E70EA /* [CP] Check Pods Manifest.lock */,
 				A942B97C233CDF1600194CC6 /* Sources */,
 				A942B97D233CDF1600194CC6 /* Frameworks */,
 				A942B97E233CDF1600194CC6 /* Resources */,
@@ -179,6 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A942B99A233CDF1600194CC6 /* Build configuration list for PBXNativeTarget "XLLReduceBurdenTestUITests" */;
 			buildPhases = (
+				671319983ADDBBBFEEE0B763 /* [CP] Check Pods Manifest.lock */,
 				A942B987233CDF1600194CC6 /* Sources */,
 				A942B988233CDF1600194CC6 /* Frameworks */,
 				A942B989233CDF1600194CC6 /* Resources */,
@@ -204,6 +317,7 @@
 				TargetAttributes = {
 					A942B964233CDF1400194CC6 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 					A942B97F233CDF1600194CC6 = {
 						CreatedOnToolsVersion = 11.0;
@@ -262,15 +376,108 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0C79FD490FA30384BED63B27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLLReduceBurdenTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C04B6D7523DDCCE815E70EA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLLReduceBurdenTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		671319983ADDBBBFEEE0B763 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XLLReduceBurdenTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		75C3EB302CBA33A5488CBB48 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLLReduceBurdenTest/Pods-XLLReduceBurdenTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XLLReduceBurdenTest/Pods-XLLReduceBurdenTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XLLReduceBurdenTest/Pods-XLLReduceBurdenTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A942B961233CDF1400194CC6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A942B9BD233CF90200194CC6 /* SecondViewController.m in Sources */,
+				A942B9B1233CF02F00194CC6 /* XLLTestedView.m in Sources */,
 				A942B970233CDF1400194CC6 /* ViewController.m in Sources */,
+				A942B9B5233CF07400194CC6 /* XLLTestedView.swift in Sources */,
+				A942B9A2233CE08100194CC6 /* XLLTestView.m in Sources */,
 				A942B96A233CDF1400194CC6 /* AppDelegate.m in Sources */,
 				A942B97B233CDF1600194CC6 /* main.m in Sources */,
+				A942B9AE233CE72200194CC6 /* UIImage+XLL.m in Sources */,
+				A942B9AB233CE57300194CC6 /* XLLCommon.swift in Sources */,
 				A942B96D233CDF1400194CC6 /* SceneDelegate.m in Sources */,
+				A942B9A6233CE3C800194CC6 /* UIFont+XLL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,7 +582,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -427,7 +634,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -437,10 +644,13 @@
 		};
 		A942B995233CDF1600194CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DA4074E8821957C1DBA037D /* Pods-XLLReduceBurdenTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
+				GCC_PREFIX_HEADER = ./XLLReduceBurdenTest/PrefixHeader.pch;
 				INFOPLIST_FILE = XLLReduceBurdenTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -448,16 +658,22 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderXLL.XLLReduceBurdenTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./XLLReduceBurdenTest/XLLReduceBurdenTest-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		A942B996233CDF1600194CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F5F5F8F2615E5429EFEABC3 /* Pods-XLLReduceBurdenTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
+				GCC_PREFIX_HEADER = ./XLLReduceBurdenTest/PrefixHeader.pch;
 				INFOPLIST_FILE = XLLReduceBurdenTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,13 +681,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.CoderXLL.XLLReduceBurdenTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "./XLLReduceBurdenTest/XLLReduceBurdenTest-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
 		A942B998233CDF1600194CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF1852837555EB2C04EE92EC /* Pods-XLLReduceBurdenTestTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
@@ -491,7 +711,9 @@
 		};
 		A942B999233CDF1600194CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 835623FE90BDCFFB85FB6022 /* Pods-XLLReduceBurdenTestTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
@@ -511,7 +733,9 @@
 		};
 		A942B99B233CDF1600194CC6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34C8F151B2ECD2199ACE124D /* Pods-XLLReduceBurdenTestUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
 				INFOPLIST_FILE = XLLReduceBurdenTestUITests/Info.plist;
@@ -529,7 +753,9 @@
 		};
 		A942B99C233CDF1600194CC6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1241BF878991720B9AF4374C /* Pods-XLLReduceBurdenTestUITests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = FY6L33U4A3;
 				INFOPLIST_FILE = XLLReduceBurdenTestUITests/Info.plist;
